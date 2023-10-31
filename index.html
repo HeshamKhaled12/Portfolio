@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets\style.css">
+    <title>Portfolio</title>
+
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">p<span>a</span>nda</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+                    <li><a href="#about" class="nav__link">About</a></li>
+
+                    <li><a href="#servies" class="nav__link">Services</a></li>
+
+                    <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ui uil-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__socials">
+                <a href="https://www.facebook.com/hesham.khaled.758" target="_blank" class="nav__social-link">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/maybe_hesham/" target="_blank" class="nav__social-link">
+                    <i class="uil uil-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/hesham-khaled-805630279/" target="_blank" class="nav__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@maybepainda" target="_blank" class="nav__social-link">
+                    <i class="uil uil-tiktok"></i>
+                </a>
+            </div>
+
+            <div class="nav btns">
+                <a href="#contact" class="nav__link-btn btn">Lets Talk</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+     <!--     Main      -->
+    <main>
+        <!--     Home      -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Welcome To My World</span>
+                    <h1 class="home__title">
+                        Hi, I'm Hesham Khaled <span>AI Developer.</span> 
+                        based in EG.
+                    </h1>
+                </div>
+
+                <img src="assets\Screenshot 2023-10-30 184105.jpg" alt="" class="home__img">
+            </div>
+        </section>
+        <!--     About     -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="assets\Screenshot 2023-10-30 184150.png" alt="" class="about__img">
+
+                <div class="about__content">
+                    <h2 class="section__title">About Me</h2>
+
+                    <p class="about__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, rerum temporibus aliquam atque expedita ex labore deserunt iusto voluptatibus, sunt, ad inventore reprehenderit unde dolores necessitatibus laboriosam provident ducimus ratione!
+
+                    </p>
+
+                    <div class="tabs__btns" >
+                        <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+                        <span class="tabs__btn" data-target="#award">Awards</span>
+                        <span class="tabs__btn" data-target="#experience">Experience</span>
+                        <span class="tabs__btn" data-target="#eduction">Eduction & Certification</span>
+
+                    </div>
+                    
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs_data grid">
+                                <p class="tabs__description">
+                                    <span>Programming Languages</span> - Python/C++/C# <span>Delight the user and make it work.</span> 
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Web Development</span> - Front-End<span>Delight the user and make it work.</span> 
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>AI Development</span> - Machine Learning<span>Delight the user and make it work.</span> 
+                                </p>
+
+                
+                            </div>
+                        </div>
+
+                        <div class="tabs__item" data-content id="award">
+                            <div class="tabs_data grid">
+                                <p class="tabs__description">
+                                    <span>Machine Learning Certifcate</span> - STP <span>2022-2023</span> 
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Machine Learning Certifcate</span> - GDSC<span>2022-2023</span> 
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Certifcate in ML</span> - Udemy<span>2022-2023</span> 
+                                </p>
+
+                
+                            </div>
+                        </div>
+                        <div class="tabs__item" data-content id="experience">
+                            <div class="tabs_data grid">
+                                <p class="tabs__description">
+                                    <span>Front-End</span> - Self <span>2023</span> 
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>Game Development</span> - Self<span>2023</span> 
+                                </p>
+
+                                <p class="tabs__description">
+                                    <span>AI Development</span> - Self<span>2023 Current</span> 
+                                </p>
+
+                
+                            </div>
+                        </div>
+                        <div class="tabs__item" data-content id="eduction">
+                            <div class="tabs_data grid">
+                                <p class="tabs__description">
+                                    <span>Currently a student at Helwan Universty in Science Faculty CS & Maths Department</span>  
+                                </p>
+
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--     Servies      -->
+        <section class="servies section" id="servies">
+            <h2 class="section__title">My Awesome Page</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ad.
+            </p>
+
+            <div class="servies__container container grid">
+                <div class="servies__item">
+                    <i class="uil uil-battery-empty servies__icon"></i>
+
+                    <h3 class="servies__title">Battery</h3>
+                    <p class="servies__description">A Full Battery how wonderfull</p>
+                </div>
+                <div class="servies__item">
+                    <i class="uil uil-bookmark servies__icon"></i>
+
+                    <h3 class="servies__title">Bookmark</h3>
+                    <p class="servies__description">A Bookmark for ur stuff</p>
+                </div>
+                <div class="servies__item">
+                    <i class="uil uil-calender servies__icon"></i>
+
+                    <h3 class="servies__title">Calender</h3>
+                    <p class="servies__description">A Calender For the Important Dates</p>
+                </div>
+                <div class="servies__item">
+                    <i class="uil uil-check-circle servies__icon"></i>
+
+                    <h3 class="servies__title">Identity</h3>
+                    <p class="servies__description">Look i am Certified</p>
+                </div>
+                <div class="servies__item">
+                    <i class="uil uil-exclamation-triangle servies__icon"></i>
+
+                    <h3 class="servies__title">Whats This?</h3>
+                    <p class="servies__description">Becarful from the Panda!</p>
+                </div>
+                <div class="servies__item">
+                    <i class="uil uil-link-h servies__icon"></i>
+
+                    <h3 class="servies__title">Link</h3>
+                    <p class="servies__description">Link To my FB Page</p>
+                </div>
+            </div>
+        </section>
+
+        <!--     Portfolio      -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Lastest Played Games</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ad</p>
+
+            <div class="portfolio__container container grid">
+                <div class="portfolio__item">
+                    <img src="assets\Screenshot (44).png" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Ubisoft</p>
+                        <h3 class="portfolio__title">The Rise of the Tomb Raider</h3>
+                        <p class="portfolio__description">An amazing game</p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="assets\spider_man.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Sony</p>
+                        <h3 class="portfolio__title">Spider Man</h3>
+                        <p class="portfolio__description">An amazing game</p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="assets\marvels-spider-man-miles-morales-review-screenshots_9vxv.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Sony</p>
+                        <h3 class="portfolio__title">Spider Man:Miles Morales</h3>
+                        <p class="portfolio__description">An amazing game</p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="assets\5c951ced16c958189c5c3b4c.webp" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle"> FromSoftware</p>
+                        <h3 class="portfolio__title">Sekiro</h3>
+                        <p class="portfolio__description">An amazing game</p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="assets\Uncharted3__4_.0.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Naughty Dog</p>
+                        <h3 class="portfolio__title">Uncharted 3</h3>
+                        <p class="portfolio__description">An amazing game</p>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="assets\download.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Naughty Dog</p>
+                        <h3 class="portfolio__title">Uncharted 4</h3>
+                        <p class="portfolio__description">An amazing game</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--     Contact      -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__contant">
+                    <h2 class="section__title">Hire Me</h2>
+
+                    <p class="contact__description">I am available for gaming . Contact me via phone: <a href="tel:+200123456789">0123456789</a>
+                    </p>
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input type="text"
+                             name="name"
+                              placeholder="Your Name"
+                               class="contact__input"
+                               id="contact-name">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="email"
+                             name="email"
+                              placeholder="Your e-mail"
+                               class="contact__input"
+                               id="contact-email">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="text"
+                             name="subject"
+                              placeholder="Write a subject"
+                               class="contact__input"
+                               id="contact-subject">
+                        </div>
+
+                        <div class="contact__form-input">
+                            <textarea name="message"
+                             id="contact-message"
+                              class="contact__input textarea"
+                               placeholder="Your Message"></textarea>
+                        </div>
+                        <input type="submit" value="Submit" class="btn">
+
+                        <p class="error__message" id="error-message"></p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        
+
+
+    </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <a href="index.html" class="footer__logo">p<span>a</span>nda</a>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/hesham.khaled.758" target="_blank" class="footer__social-link">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/maybe_hesham/" target="_blank" class="footer__social-link">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/hesham-khaled-805630279/" target="_blank" class="footer__social-link">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@maybepainda" target="_blank" class="footer__social-link">
+                        <i class="uil uil-tiktok"></i>
+                    </a>
+                </div>
+
+                <p class="footer__copyright">&copy; 2023. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-angle-up scrollup__icon"></i>
+        </a>
+
+
+
+
+    <!--Main JS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets\main.js"></script>
+</body>
+</html>
